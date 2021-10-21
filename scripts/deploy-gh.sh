@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # 进入生成的文件夹
-cd public
+cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
@@ -24,6 +24,6 @@ git commit -m 'deploy'
 
 # 把上面的 <USERNAME> 换成你自己的 Github 用户名，<REPO> 换成仓库名，比如我这里就是：
 # git push -f git@github.com:wangxifa/qinFeng.git master:gh-pages
-git push -f git@github.com:Coien-rr/vuepress-starter.git master:gh-pages
+git push -f git@github.com:Coien-rr/vuepress-starter.git master:pages
 
 cd -

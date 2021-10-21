@@ -1,7 +1,7 @@
 module.exports = {
     title:"VuePress-Starter",
     description:"Guide you build your first VuePress project",
-    base: '/vuepress-starter/',
+    base: '/VuePress-Start-Page/',
     locales: {
         '/': {
             lang: 'zh-CN',
