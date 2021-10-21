@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/",
+  "base": "/vuepress-starter/",
   "lang": "en-US",
   "title": "VuePress-Starter",
   "description": "Guide you build your first VuePress project",
