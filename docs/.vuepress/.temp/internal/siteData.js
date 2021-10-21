@@ -4,7 +4,18 @@ export const siteData = {
   "title": "",
   "description": "",
   "head": [],
-  "locales": {}
+  "locales": {
+    "/": {
+      "lang": "zh-CN",
+      "title": "探索 VuePress",
+      "description": "搭建你的第一个VuePress项目"
+    },
+    "/en/": {
+      "lang": "en-US",
+      "title": "Guide VuePress",
+      "description": "Guide you build your first VuePress project"
+    }
+  }
 }
 
 if (import.meta.webpackHot) {
