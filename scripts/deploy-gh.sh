@@ -4,10 +4,10 @@
 set -e
 
 # 生成静态文件
-yarn docs:build
+npm run build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd public
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
@@ -23,7 +23,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 # 把上面的 <USERNAME> 换成你自己的 Github 用户名，<REPO> 换成仓库名，比如我这里就是：
-#git push -f git@github.com:wtyqer/blog.git master:gh-pages
-git push -f git@github.com:Coien-rr/vuepress-starter.git master:gh-pages
+# git push -f git@github.com:wangxifa/qinFeng.git master:gh-pages
+git push -f git@github.com:Coien-rr/vuepress-starter.git master
 
 cd -
