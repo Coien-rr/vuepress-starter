@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy-gh": "yarn docs:build && bash scripts/deploy-gh.sh"
   },
   "devDependencies": {
     "@vuepress/plugin-prismjs": "^2.0.0-beta.26",
